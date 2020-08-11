@@ -1,0 +1,37 @@
+body{
+  background-color: coral;
+}
+
+body{
+  text-align: center;
+}
+p{
+  display: inline;
+  font-size: 1vw;
+  font-family: fantasy;
+  padding-top: 0.5em;
+}
+h1{
+  display: inline;
+  font-family: sherlock;
+}
+#control-panel{
+  display: block;
+}
+#false-body{
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-bottom: 2em;
+  background-color: antiquewhite;
+}
+.listed-note{
+  font-size: 2vw;
+  display: block;
+}
+.listed-note:hover{
+  cursor: pointer;
+}
+@font-face{
+  src: url(fonts/SHERLOCK\ HOLMES.ttf);
+  font-family: 'sherlock';
+}
