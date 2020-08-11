@@ -3,9 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>to-do</title>
+  <link rel="stylesheet" href="index.css"></link>
+  <title>to-do-list</title>
 </head>
+
 <body>
-  
+<div id="false-body" onclick="myFunction(event)">
+    <p> Page Loaded in: </p><p id="loading-time"></p><p>s</p> </br>
+    <h1> To Do: </h1><p id="todays-date"></p>
+
+    <div>
+      <input id="input-field" placeholder="Enter Text">
+      <button id="input-button" id="make-new-button" onclick="addItemToList()"> Make New </button>
+    </div>
+
+    <div id="todo-list">
+    </div>
+</div>
 </body>
+
+<script src="src/todoItem.js"></script>
+<script src="src/todoList.js"></script>
+<script src="index.js"></script>
 </html>
